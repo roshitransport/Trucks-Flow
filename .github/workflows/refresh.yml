@@ -1,15 +1,45 @@
+
 name: refresh-ihmcl-data
+
 on:
-  schedule: [{cron: "0 3 * * 1"}]   # weekly; reports appear monthly
+  schedule:
+    - cron: "0 3 * * 1"
   workflow_dispatch:
-permissions: {contents: write}
+
+permissions:
+  contents: write
+
 jobs:
   run:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt-get install -y poppler-utils
-      - run: python fetch_ihmcl.py
-      - run: |
-          git config user.name bot && git config user.email bot@users.noreply.github.com
-          git add data && (git diff --cached --quiet || git commit -m "data refresh" && git push)
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install PDF tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+
+      - name: Run parser tests
+        run: python test_parse.py
+
+      - name: Fetch IHMCL data
+        run: python fetch_ihmcl.py
+
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh IHMCL data"
+            git push
+          else
+            echo "No data changes to commit."
+          fi
