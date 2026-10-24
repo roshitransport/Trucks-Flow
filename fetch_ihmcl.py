@@ -27,6 +27,7 @@ def parse(text, month):
     return out
 
 def main():
+    os.makedirs("data", exist_ok=True)
     html = get(PAGE).decode("utf8", "ignore")
     links = {}
     for h in re.findall(r'href=["\']([^"\']+\.pdf)["\']', html):
