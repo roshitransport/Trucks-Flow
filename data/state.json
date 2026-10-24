@@ -1,0 +1,86 @@
+{
+ "2025-08": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2025/09/Aug-2025-ETC-Data.pdf",
+  "sha256": "93631a0fc47c4eeb98a9d0c338221544c2ec5898a1855c85b52453c42dd3eb6e",
+  "retrieved": "2026-10-24T10:01:08.165549Z",
+  "rows": 1171
+ },
+ "2025-09": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2025/10/Sept-2025-ETC-Data.pdf",
+  "sha256": "f41772397a2dc75b3a0073a2053eab40891c0d7d6615c37453b298d75fb72d00",
+  "retrieved": "2026-10-24T10:01:08.674994Z",
+  "rows": 1162
+ },
+ "2025-10": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2025/11/Oct-2025-ETC-Data.pdf",
+  "sha256": "ae2c668c1a20a281af6f0e427e86492a63928cbeed46d95d04836d533ea0d199",
+  "retrieved": "2026-10-24T10:01:09.194804Z",
+  "rows": 1125
+ },
+ "2025-11": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2025/12/Nov-2025.pdf",
+  "sha256": "7de331a18498584e8242e8bc787f4c308136a53dfd6c90e99687b14d890a16c4",
+  "retrieved": "2026-10-24T10:01:09.690183Z",
+  "rows": 1130
+ },
+ "2025-12": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2026/01/Dec-2025.pdf",
+  "sha256": "b390be1251dea38fa15aac079cca2896079bbc3083a20f890c82b1c652bda39c",
+  "retrieved": "2026-10-24T10:01:10.182652Z",
+  "rows": 1137
+ },
+ "2026-01": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2026/02/Jan-2026.pdf",
+  "sha256": "d16af3a6bba459057357ae6c0cd154fe7317abe660eb7600e11e35d312768f75",
+  "retrieved": "2026-10-24T10:01:10.698811Z",
+  "rows": 1157
+ },
+ "2026-02": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2026/03/Feb-2026.pdf",
+  "sha256": "b17f5bc0407b566b7f55053228fd2ec0686621d9777d153a1b7a53e9bb04d91b",
+  "retrieved": "2026-10-24T10:01:11.227218Z",
+  "rows": 1185
+ },
+ "2026-03": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2026/04/Mar-2026.pdf",
+  "sha256": "fd53242bb0add3fd6aa74bb78c2855811577397f89802eaa73880c5d70d512e7",
+  "retrieved": "2026-10-24T10:01:11.758142Z",
+  "rows": 1160
+ },
+ "2026-04": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2026/08/Apr-2026.pdf",
+  "sha256": "33ff4e3687f0a20d1fbbf2eb6cd4a26bd9e9fbe93de6f30147518c150f0f3dae",
+  "retrieved": "2026-10-24T10:01:12.276085Z",
+  "rows": 1196
+ },
+ "2026-05": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2026/08/May-2026.pdf",
+  "sha256": "b5d7cf9515e4480cfba6cdc82422c3886020c2cd9ab06c90d69f74f78ce4c64c",
+  "retrieved": "2026-10-24T10:01:12.832687Z",
+  "rows": 1223
+ },
+ "2026-06": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2026/08/June-2026.pdf",
+  "sha256": "ecba1ecf78966d7ee4df6e2d3b1bed17881c51653e3eb07298483a151cbf5713",
+  "retrieved": "2026-10-24T10:01:13.441228Z",
+  "rows": 1220
+ },
+ "2026-07": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2026/08/Jul-2026-1.pdf",
+  "sha256": "b4dfcc7f90c81a7a9a73bc7c9b4aac28d231730928c15eb410860fdf806f30ee",
+  "retrieved": "2026-10-24T10:01:14.274424Z",
+  "rows": 1235
+ },
+ "2026-08": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2026/09/Aug-2026.pdf",
+  "sha256": "910de5b771e5d23b7d692f8889a39fccb40963040be27aa184bb9be3b6d7a51e",
+  "retrieved": "2026-10-24T10:01:14.819390Z",
+  "rows": 1247
+ },
+ "2026-09": {
+  "url": "https://ihmcl.co.in/wp-content/uploads/2026/10/VC-wise-ETC-Data-Sept-2026.pdf",
+  "sha256": "d3d76e2f5f03416ec165490e0bc973efcebf8a8d1fe95ace1940043435668ecc",
+  "retrieved": "2026-10-24T10:01:15.646998Z",
+  "rows": 1260
+ }
+}
